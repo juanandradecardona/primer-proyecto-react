@@ -1,6 +1,6 @@
 import MenuUsuario from "./MenuUsuarios"
 
-function Encabezado(){
+function Encabezado({ usuario }) {
     return(
         <header className="encabezado">
             <div className="encabezado-marca">
@@ -11,7 +11,7 @@ function Encabezado(){
                 <a href="#">Contacto</a>
             </nav>
             </div>
-            <MenuUsuario/>
+            <MenuUsuario usuario={usuario}/>
         </header>
     )
 }

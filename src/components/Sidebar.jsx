@@ -1,7 +1,10 @@
-function Sidebar() {
+function Sidebar({ usuario }) {
     return (
         <aside className="sidebar">
             <div>
+                {/* Agregamos el saludo usando la prop usuario */}
+                <p className="sidebar-saludo">Hola, {usuario.nombre}</p>
+
                 <h3 className="sidebar-titulo">Menú</h3>
                 <nav>
                     <ul className="sidebar-menu">

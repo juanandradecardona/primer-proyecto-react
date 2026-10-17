@@ -313,6 +313,13 @@ body {
   font-size: 0.875rem;
 }
 
+.usuario-correo {
+  color: #333333; /* Color de texto oscuro */
+  font-size: 0.85rem;
+  padding: 8px 12px;
+  word-break: break-all; /* Evita que el correo se salga del menú si es muy largo */
+}
+
 /* --- PIE DE PÁGINA --- */
 .pie {
     text-align: center;

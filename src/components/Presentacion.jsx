@@ -1,12 +1,13 @@
-function Presentacion(){
+function Presentacion({usuario}){
     return(
         <article className='presentacion'>
-                <h1> Hola, Soy Juan Pablo Andrade Cardona</h1>
+                <h1> Hola, Soy {usuario.nombre}</h1>
 
                 <h3>Mis datos son</h3>
                 <ul>
                     <>
-                    <li> correo : juan@sena.edu.co</li>
+                    <li> correo : {usuario.correo}</li>
+                    <li> rol : {usuario.rol}</li>
                     <li> telefono : 312938443</li>
                     </>
                 </ul>
